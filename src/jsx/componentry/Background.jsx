@@ -12,10 +12,12 @@ export default function Background() {
     }, []);
 
     return (
+
         <div className="FireplaceBackground" style={{ overflow: "hidden" }}>
             <div style={{ overflow: "hidden", position: "absolute", top: 0, left: 0, height: "100vh", width: "100vw" }}>
                 <div className="FireplaceBlur" style={backgroundStyle} />
             </div>
+
         </div>
     );
 };

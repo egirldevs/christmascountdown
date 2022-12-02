@@ -54,6 +54,7 @@ export default function BodyTop() {
     };
 
     return (
+        <div class="snow">
         <div className="BodyTop">
             <h1 className="BodyTop-Tagline">
                 Happy Holidays!
@@ -61,9 +62,11 @@ export default function BodyTop() {
                 {DateRender()}
             <footer>
                 <a href="https://bunni.me/" target="_blank" rel="noopener noreferrer">
-                    <h2 className="BodyTop-Watermark">Made with &#10084;</h2>
+                    <h2 className="BodyTop-Watermark">Made with &#10084; by dani and emily</h2>
                 </a>
             </footer>
         </div>
+        </div>
+
     );
 };
